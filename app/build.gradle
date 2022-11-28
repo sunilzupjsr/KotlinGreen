@@ -8,15 +8,7 @@ android {
     namespace 'com.eagle.offline.music.player.kotlingreen'
     compileSdk 32
 
-    defaultConfig {
-        applicationId "com.eagle.offline.music.player.kotlingreen"
-        minSdk 23
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
 
     buildTypes {
         release {
