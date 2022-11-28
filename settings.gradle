@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "KotlinGreen"
-include ':app'
+include ':sunilLib'
