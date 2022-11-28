@@ -1,14 +1,19 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-    id 'maven-publish'
 }
 
 android {
     namespace 'com.eagle.offline.music.player.kotlingreen'
     compileSdk 32
 
+    defaultConfig {
+        minSdk 23
+        targetSdk 32
 
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
 
     buildTypes {
         release {
